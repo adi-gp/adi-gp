@@ -5,7 +5,6 @@ Computer Science Engineering student at Maharaja Surajmal Institute of Technolog
 ## What I Work On
 
 - Deep learning with Python, TensorFlow/Keras, PyTorch, Scikit-learn, NumPy, and Pandas
-- Computer vision and medical image classification with CNNs
 - Audio ML pipelines using spectrograms, CNNs, Bi-GRU models, attention, and pretrained encoders
 - Workflow automation using n8n, VAPI, Telegram Bot API, Twitter/X API, and REST APIs
 
