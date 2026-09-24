@@ -6,7 +6,7 @@ I’m a Computer Science Engineering student at Maharaja Surajmal Institute of T
 
 - **Deep learning:** Python, TensorFlow/Keras, PyTorch, Scikit-learn, NumPy, and Pandas
 - **Audio ML:** log-mel spectrograms, CNNs, Bi-GRU models, attention, and pretrained audio encoders
-- **Automation:** n8n, VAPI, Telegram Bot API, Twitter/X API, and REST APIs
+- **Automation:** n8n, VAPI , WhisperFlow
 
 ## Selected work
 
