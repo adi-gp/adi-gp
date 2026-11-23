@@ -1,41 +1,40 @@
 # Hi, I'm Aditya Gupta 👋
 
-I’m a Computer Science Engineering student at Maharaja Surajmal Institute of Technology, Delhi. I build practical machine-learning and automation projects, with particular interest in deep learning, audio signal processing, medical imaging, and API-driven workflows.
+Third-year B.Tech CSE student at Maharaja Surajmal Institute of Technology (GGSIPU), based in Gurugram.
+I build **LLM applications**: self-hosted models, structured outputs and evaluation. Right now I'm learning
+**retrieval (embeddings, RAG)** and **agents that use tools**.
 
-## Focus areas
+## What I'm building
 
-- **Deep learning:** Python, TensorFlow/Keras, PyTorch, Scikit-learn, NumPy, and Pandas
-- **Audio ML:** log-mel spectrograms, CNNs, Bi-GRU models, attention, and pretrained audio encoders
-- **Automation:** n8n, VAPI , WhisperFlow
+**Clinical Discharge Summary Generator** *(rebuild in progress)*
+De-identified EMR notes → SOAP-structured discharge summaries with Llama 3.1 70B, self-hosted with Ollama on a GCP VM
+so patient text never goes to a third-party API. Section-based chunking for long notes, Pydantic-validated
+output, and LLM-as-a-judge evaluation against physician-written references.
+
+**Saarthi-ATS** *(in progress)*
+An n8n + VAPI workflow for AI voice screening of job candidates: shortlist in by webhook, one screening call
+per candidate, results into Google Sheets.
 
 ## Selected work
 
-### [Brain Tumor MRI Classification](https://github.com/adi-gp/brain-tumor-mri-classification)
-
-An end-to-end TensorFlow/Keras project for binary classification of brain MRI images. It includes data preprocessing, CNN training, evaluation scripts, single-image prediction, and a Gradio demo.
-
-### Mosquito Species Classification
-
-A bioacoustics pipeline for identifying mosquito species from raw `.wav` audio, combining log-mel spectrogram CNNs, Bi-GRU attention, and pretrained audio embeddings.
-
-### AI-Powered Event Scheduler
-
-An n8n, VAPI, Python, and REST API workflow for creating and confirming events through voice-based interaction.
-
-### Telegram-to-Twitter Auto-Poster Bot
-
-A Python bot that listens for Telegram messages and publishes them to Twitter/X, including authentication, media handling, and retry logic.
+| Project | What it is |
+| --- | --- |
+| **Mosquito Species Classification, BioDCASE 2026** | Co-author of the [technical report](https://biodcase.github.io/challenge2026/task5-results). Team ranked 7th of 12. I built the log-Mel feature pipeline and the CNN → Bi-GRU + attention branch in PyTorch. |
+| [Brain Tumor MRI Classification](https://github.com/adi-gp/brain-tumor-mri-classification) | Custom CNN vs. MobileNetV2 with leak-free splits, tests and CI. |
+| [DSA in Java](https://github.com/adi-gp/DSA) | 80+ solved problems grouped by pattern. |
+| [Q-MedAI](https://github.com/adi-gp/Q-MedAI) · [quantum-fibonacci](https://github.com/adi-gp/quantum-fibonacci) | Quantum computing experiments: hybrid quantum-classical ML and a reversible Fibonacci circuit in Qiskit. |
 
 ## Toolbox
 
-| Area | Technologies |
+| Area | Tools |
 | --- | --- |
-| Languages | Python, Java |
-| ML / DL | TensorFlow, Keras, PyTorch, Scikit-learn, NumPy, Pandas, Librosa, OpenCV |
-| Automation & APIs | n8n, VAPI, Telegram Bot API, Twitter/X API, REST APIs |
-| Development | Git, GitHub, Google Colab, Jupyter Notebook |
+| Languages | Java, Python |
+| LLMs | Llama 3.1, Ollama, prompt engineering (chain-of-thought), Pydantic structured outputs, LLM-as-a-judge |
+| ML | PyTorch, TensorFlow/Keras, Librosa, NumPy, Pandas |
+| Backend & automation | REST APIs, webhooks, n8n, Streamlit |
+| Cloud & tools | GCP Compute Engine, Linux, Git |
+| Learning now | SQL & Postgres, embeddings & pgvector, FastAPI, Docker |
 
 ## Connect
 
-- Email: [adityasushilgupta04@gmail.com](mailto:adityasushilgupta04@gmail.com)
-- LinkedIn: [linkedin.com/in/aditya-gp](https://linkedin.com/in/aditya-gp)
+[LinkedIn](https://www.linkedin.com/in/aditya-gp) · [adityasushilgupta04@gmail.com](mailto:adityasushilgupta04@gmail.com)
