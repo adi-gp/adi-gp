@@ -11,7 +11,7 @@ De-identified EMR notes → SOAP-structured discharge summaries with Llama 3.1 7
 so patient text never goes to a third-party API. Section-based chunking for long notes, Pydantic-validated
 output, and LLM-as-a-judge evaluation against physician-written references.
 
-**Saarthi-ATS** *(rebuilding now)*
+**AI Voice Screening for Recruiting** *(rebuilding now)*
 AI voice screening for recruiting: candidates are matched to a job, screened by an AI voice agent, and the
 call is turned into structured results. Being rebuilt as a deployed web app on Vercel.
 
