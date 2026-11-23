@@ -4,16 +4,16 @@ Third-year B.Tech CSE student at Maharaja Surajmal Institute of Technology (GGSI
 I build **LLM applications**: self-hosted models, structured outputs and evaluation. Right now I'm learning
 **retrieval (embeddings, RAG)** and **agents that use tools**.
 
-## What I'm building
+## LLM projects
 
-**Clinical Discharge Summary Generator** *(rebuild in progress)*
+**Clinical Discharge Summary Generator**
 De-identified EMR notes → SOAP-structured discharge summaries with Llama 3.1 70B, self-hosted with Ollama on a GCP VM
 so patient text never goes to a third-party API. Section-based chunking for long notes, Pydantic-validated
 output, and LLM-as-a-judge evaluation against physician-written references.
 
-**Saarthi-ATS** *(in progress)*
-An n8n + VAPI workflow for AI voice screening of job candidates: shortlist in by webhook, one screening call
-per candidate, results into Google Sheets.
+**Saarthi-ATS** *(rebuilding now)*
+AI voice screening for recruiting: candidates are matched to a job, screened by an AI voice agent, and the
+call is turned into structured results. Being rebuilt as a deployed web app on Vercel.
 
 ## Selected work
 
